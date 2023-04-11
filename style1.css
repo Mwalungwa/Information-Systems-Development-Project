@@ -1,0 +1,216 @@
+/* Body Styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f7b733;
+}
+
+.cart{
+  color:#faced6;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.cart a:hover {
+  color: #f7b733;
+}
+
+.cart a {
+  margin-right: 10px;
+}
+
+.user{
+  color:#faced6;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.user a{
+  margin-right: 5px;
+}
+
+.user a:hover {
+  color: #f7b733;
+}
+
+/* Main Styles */
+main {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons a {
+  font-size: 3rem;
+  color: #333;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.icons a:hover {
+  color: #f7b733;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.img{
+width: 180px;
+height:231px;
+}
+
+.center{
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+}
+
+.user_item{
+  position: absolute;
+  right: 150px;
+}
+
+.gender_icons{
+    margin-right: 8px
+}
+
+.gender_names{
+    padding-right:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font_size: 10px;
+}
+
+.images{
+width: 250px;
+height: 250px;
+margin: 0px;
+border: 0px;
+display: flex;
+justify-content: center;
+
+}
+
+.my_card{
+width: 350px;
+height: 550px;
+padding: 10px;
+border: 0px;
+display: flex;
+justify-content: center;
+}
+
+.my_items{
+display: flex;
+justify-content: center;
+}
+
+/*css for cart page*/
+body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    table {
+      margin-bottom: 50px;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+
+    td {
+      vertical-align: middle;
+    }
+
+    .item-image {
+      max-width: 200px;
+      max-height: 200px;
+      display: block;
+      margin: auto;
+    }
+
+    .total-price {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .checkout-btn {
+      margin-top: 20px;
+      display: block;
+      margin: auto;
+    }

@@ -1,0 +1,15 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.user-icon {
+    float: right;
+    font-size: 18px;
+}
+
+.container {
+    margin-top: 50px;
+}

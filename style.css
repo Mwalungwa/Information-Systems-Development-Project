@@ -1,0 +1,80 @@
+/* Center the card */
+
+
+/* Set a max width for the form */
+form {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+/* Add some space below the form */
+form {
+	margin-bottom: 30px;
+}
+
+/* Set a min height for the body to prevent content from overlapping with the footer */
+body {
+	min-height: 100vh;
+}
+
+/* Style the footer */
+footer {
+	background-color: #f8f9fa;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/* Custom CSS for registration page */
+
+.form-control:focus {
+	border-color: #5cb85c;
+	box-shadow: none;
+}
+
+
+
+
+/*login page*/
+body {
+	background-color: #f8f9fa;
+}
+
+.card {
+    margin-top: 50px;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.card-header h4 {
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.alert {
+    margin-top: 15px;
+    text-align: center;

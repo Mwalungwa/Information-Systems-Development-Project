@@ -1,0 +1,44 @@
+/* Cart page styling */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+table {
+  margin-bottom: 50px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.item-image {
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.total_price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.checkout_btn {
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+}
